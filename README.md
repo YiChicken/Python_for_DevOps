@@ -9,7 +9,7 @@ Doing Python DevOps work
 ### Github CodeSpace
 
 Build out python project scaffold:
-* Makefile
+* [Makefile](https://github.com/YiChicken/Python_for_DevOps/blob/main/Makefile)
 * requirements.txt
 * test_library.py
 * python_library
