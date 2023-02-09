@@ -1,3 +1,8 @@
-from devopslib.randomfruit import fruit
+from devopslib.randomfruit import meal
 
-print(fruit())
+
+import fire
+
+
+if __name__ == '__main__':
+  fire.Fire(meal)
