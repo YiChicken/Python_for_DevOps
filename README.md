@@ -1,4 +1,5 @@
 [![Test Multiple Python Versions](https://github.com/YiChicken/Python_for_DevOps/actions/workflows/main.yml/badge.svg)](https://github.com/YiChicken/Python_for_DevOps/actions/workflows/main.yml)
+
 # Python_for_DevOps
 Doing Python DevOps work
 ## Create a project scaffold
@@ -8,15 +9,17 @@ Doing Python DevOps work
 ### Github CodeSpace
 
 Build out python project scaffold:
-* Makefile
+* [Makefile](https://github.com/YiChicken/Python_for_DevOps/blob/main/Makefile)
 * requirements.txt
 * test_library.py
 * python_library
 * Dockerfile
 * command-line-tool
-* Microservice
+* Microservice 
+
 1. Create a virtualenv: 'virtualenv ~/.venv'
-2. edit my '~/.bashrc'
+2. edit my '~/.bashrc' 'source ~/.venv/bin/activate'
+3. clone project then run 'make all'
 ### AWS CloudShell
 ### AWS Cloud9
 ## Command-Lines Tools
