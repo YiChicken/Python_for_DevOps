@@ -28,3 +28,4 @@ Build out python project scaffold:
 
 ## Containerized Continous Delivery
 
+'docker run -p 127.0.0.1:8080:8080 79430dd3096e'
