@@ -17,9 +17,9 @@ post-install:
 deploy:
 	echo "deploy goes here"
 deploy:
-	aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 255244494775.dkr.ecr.us-east-1.amazonaws.com
+	aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <ecr number>.dkr.ecr.us-east-1.amazonaws.com
 	docker build -t devops-2023 .
-	docker tag devops-2023:latest 255244494775.dkr.ecr.us-east-1.amazonaws.com/devops-2023:latest
-	docker push 255244494775.dkr.ecr.us-east-1.amazonaws.com/devops-2023:latest
+	docker tag devops-2023:latest <ecr number>.dkr.ecr.us-east-1.amazonaws.com/devops-2023:latest
+	docker push <ecr number>.dkr.ecr.us-east-1.amazonaws.com/devops-2023:latest
 
 all: install post-install lint test format deploy
